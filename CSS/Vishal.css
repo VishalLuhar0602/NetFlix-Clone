@@ -1,0 +1,38 @@
+h1{
+    font-size: larger;
+    text-align: center;
+    color: blue;
+    background-color: red;
+
+}
+p{
+    
+    color: red;
+    font-size: large;
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+#articale{
+    color: blue;
+    background-color: red;
+    text-align: center;
+}
+.para{
+
+    color: red;
+    text-align: center;
+}
+footer {
+    color: blue;
+    background-color: red;
+    text-align: center;
+}
+p.article{
+          color: aqua;
+}
+p.para{
+    text-align: center;
+}
+/* hello there */

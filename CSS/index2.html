@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sports Management Website</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+
+  header {
+    background-color: rgb(49, 44, 44);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  nav {
+    background-color: #444;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="sports.webp" alt="Sports Image" style="max-width: 100%;">
+  <h1 style="font-size: 2.5em;">Welcome to Project SportsSync360</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Events</a>
+  <a href="#">Teams</a>
+  <a href="#">Players</a>
+  <a href="registration">registration</a>
+
+    <h2 id="Registration">User Registration</h2>
+    <form action="/register" method="post">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"><br><br>
+      <input type="submit" value="Register">
+    </form>

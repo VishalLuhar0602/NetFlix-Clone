@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dregistration form</title>
+</head>
+<body>
+    <fieldset>
+       <legend>Registration form</legend>
+   <form action="/action.php">
+    <label for="text">username 
+    <input type="text" placeholder="enter username" id="text">
+    </label>
+    <br> <br>
+    <label for="password"> password</label>
+    <input type="password" placeholder="enter password">
+    <br> <br>
+    <label for="email">email</label>
+    <input type="email" name="email" placeholder="enter your email adress">
+    <br></br>
+    <label for="phone no">phone no:</label>
+    <input type="tel" name="tele" placeholder="your phone no">
+    <br><br>
+    <label for="count">experience in years</label>
+    <input type="number" value="count" id="count" min="0" max="50">
+
+    <h5>select your class</h5>
+    <label for="101">
+         <input type="radio" value="class xi" name="class" id="101"> class xi
+         </label>
+         <br> <br>
+    <label for="102">
+         <input type="radio" value="class xii" name="class" id="102"> class xii
+        </label>
+        <br> <br>
+
+        <h5>Select date of birth</h5>
+        <label for="datepicker">
+         <input type="date" value="date" name="datepicker" id="datepicker">
+        </label>
+        <br> <br>
+
+        <label for="fileupload"> upload file here
+        <input type="file" name="fileupload" id="fileupload">
+        </label>
+        <br><br>
+        <input type="image" name="image1" id="image1" alt="click here" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAACXl5eFhYX8/Pxra2vr6+skJCTo6Oi2trb4+Pjw8PBGRkbh4eG5ubnY2NjJycmLi4syMjLAwMCdnZ03Nzeqqqp1dXUqKirOzs5VVVUKCgp/f39bW1tNTU0bGxsUFBRlZWU+Pj6mpqacnJyTk5Pk/AcmAAADI0lEQVR4nO3dCXLiMBCF4TTEhN3s+5aQ3P+Kw8zUZEjYvEgl6+X/DkD1Swy4Lal5egIAAAAAAAAAAAAAAAAAAAAAAFF6boeuwLvpLHQFvtXtLQ1dg199M5tLX6oN++0YugyfRn8iLpah6/Ansb+SRuhKfJnZP7XQpXiSfia0l0HoYvywM9tm6Gp82J5HtI/n0PW4V/uS0F7GoQtybmnfrNQu1efvCc2GYpfq6DKitUIX5VT9SkLrKt2Pj68lNNvo3I/3ric002kd97cijlQu1eRWwlPr2AldnBOz2wlFWsebb0SZS7V9uBvRkvgv1dX9hGbvoSssq/YooS0ibx0HDxOavUb9lKOdIeGpdQxdZhndTBHXEbeOm0wJT61jL3SlRfUzJoy3dWxkTmiHfuhii1lnj2hdj5fq5C0Z1mbjtNd03bvNcyT02Tr+/2Zev4x2yfB4StvotB28Ne7efF9a+2odb9x7LLqrpH5sjZfNwlnT6698m6dVx8d3V7bvvs7rk/4gzZk2b0JPq44ZEn4x2m6Gk9Yy7T1uDnb5I/poHfMmPLOfbue1SWvQa3au/u0LvfTI+apjiYRfwna384/ZKe3Zh9TFk+9sXLeObhKeO0xXr6e040GW9uIqt62j+4QOOF11rGRCp6uOFU3osHWsbEJnq47VTehq1bHKCd20jtVO6KJ1rHhCs13Z1rHyCc3q5S7VCBKWXCCPImGp1jGOhGVWHWNJWLx1jCdh0VXHiBIWbB2jSmg2kU9Y4ClHbAnzrzrGl9As331cfAnV/4fy70P1z1L170P5exr1+1L13kK+P1Tv8dWf06g/a5N/Xqr+zFt93UJ+7Ul9/VB9Dbji6/jr0nsxCjSB3hN+7qdJpfbTiO6JktzXprk3UXJ/qeoeYf193v5UZa++N/rnLfTPzOife5I/u6Z//lD/DKn+OWD5s9z65/H1Zyroz8XQn20iP59Gf8aQ/pwo/Vlf8vPa9Gfu6c9N1J99qT+/9Dyf5Axa/TnC+rOg9ed5y89k15+rr//bCPq/byH/GyU/4HdmAAAAAAAAAAAAAAAAAAAAAAD4GX4BoIZCNkoWdWgAAAAASUVORK5CYII=" height="20px" width="20px">
+        <h5>select your fav subject</h5>
+        <label for="101">
+            <input type="checkbox" value="math" name="subject" id="101"> math
+        </label>
+        <br><br>
+        <label for="101">
+            <input type="checkbox" value="physics" name="subject" id="101"> phy
+        </label>
+        <br><br>
+        <label for="101">
+            <input type="checkbox" value="chemistry" name="subject" id="101"> chemistry
+        </label>
+        <br><br>
+        <label for="101">
+            <input type="checkbox" value="computer science" name="subject" id="101"> computer science
+        </label>
+        <br><br>
+        <h5>select your city</h5>
+        <select name="city" id="101">
+            <option value="delhi">delhi</option>
+            <option value="ahmedabad">ahmedabad</option>
+            <option value="mumbai">mumbai</option>
+            <option value="chennai">chennai</option>
+        </select>
+        <br> <br>
+        <textarea name="feedback" id="101" placeholder="your feedback" rows="5"> feedback
+        </textarea>        
+       <br><br>
+        <input type="submit" value="submit">
+
+   </form>
+   </fieldset>
+   <iframe width="560" height="315" 
+   src="https://www.youtube.com/embed/ZYKF4R5Lk2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315"
+   src="https://en.wikipedia.org/wiki/India">
+   </iframe>
+</body>
+</html>

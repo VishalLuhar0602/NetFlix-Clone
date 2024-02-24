@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala For A Reason</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="searchbar">
+        <div class="words">
+            <input  id="Shabd" class="box" type="text" placeholder="Write Text Here">
+            <button id="submit" type="submit" >Submit</button>
+        </div>
+        <div class="ank">
+            <input id="Anko" class="box" type="number" placeholder="Write Number Here">
+            <button id="submit1" type="submit" >Submit</button>
+        </div>
+    </div>
+</body>
+<script>
+    var Shabd=document.getElementById('Shabd');
+    var Shabd=document.getElementById('Anko');
+    var submit=document.getElementById('submit');
+    var submit1=document.getElementById('submit1');
+    submit.addEventListener('click',()=>{
+        if(Shabd.value.length==7){
+    console.log("Thala For A Reaon !!");
+    }
+    })
+    submit1.addEventListener('click',()=>{
+        if(Shabd.value.length==7){
+    console.log("THALA");
+    }
+    })
+</script>
+</html>

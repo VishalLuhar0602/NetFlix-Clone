@@ -1,0 +1,79 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+}
+.Heading{
+    color: red;
+}
+h1{
+    color: red;
+    background-color: blanchedalmond;
+    text-align: center;
+    text-decoration: red underline;
+    text-transform: capitalize;
+}
+#h1{
+    color: red;
+    font-weight: normal;
+}
+#h2{
+    color: red;
+    font-weight: lighter;
+}
+#h3{
+    color: red;
+    font-weight: bolder;
+}
+#h4{
+    color: red;
+    font-weight: 900;
+}
+#outer{
+    color: red;
+    font-size: 25px;
+}
+#inner{
+    color: red;
+    font-size: 10px;
+}
+p{
+    color: red;
+    color: black;
+    text-align:center;
+    font-weight: bold;
+}
+#p1{
+
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#p2{
+    color: red;
+    font-family: cursive;
+}
+#p3{
+    color: red;
+    font-size: 20px;
+}
+#p4{
+    color: red;
+    font-size: 50px;
+}
+#p5{
+    color: red;
+    font-size: 1px;
+}
+#p6{
+    color: red;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+button{
+    color: red;
+    color: black;
+    background-color: green;
+}

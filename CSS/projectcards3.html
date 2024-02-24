@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swipe card</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            height: 400px;
+            width: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+        .leftbox{
+            height: 400px;
+            width: 400px;
+            background-image: url("purple.jpeg");
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-self: center;
+            gap: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .maintext{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .maintext p{
+            font-size: 1rem;
+        }
+        #text{
+            font-size: 2rem;
+            padding-top: 5px;
+        }
+        .rightbox{
+            height: 400px;
+            width: 400px;
+            /* background-size:contain; */
+            background-position: center; /* Adjust as needed */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("icon.jpeg");
+            background-color: white;
+        }
+        .details{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .details p{
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftbox">
+               <div class="maintext">
+                <h2 id="text">
+                    Get insights that help your business grow
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum id excepturi odio aliquid est doloribus consequuntur quas autem quidem consectetur!</p>
+               </div>
+                <div class="details">
+                    <div class="comments">
+                        <h2>10K+</h2>
+                        <p>Comments</p>
+                    </div>
+                    <div class="users">
+                        <h2>214</h2>
+                        <p>Users</p>
+                        </div>
+                        <div class="views">
+                            <h2>12M+</h2>
+                            <p>Views</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rightbox">
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

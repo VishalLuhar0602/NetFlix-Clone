@@ -1,0 +1,53 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.candlestick {
+  width: 40px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.N::before, .N::after,
+.S::before, .S::after {
+  content: '';
+  position: absolute;
+  background-color: #000;
+}
+
+.N::before, .S::before {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 20px;
+  left: 10px;
+}
+
+.N::after, .S::after {
+  width: 10px;
+  height: 60px;
+  top: 40px;
+  left: 15px;
+}
+
+.N::before {
+  transform: rotate(45deg);
+}
+
+.N::after {
+  transform: rotate(-45deg);
+}
+
+.S::before {
+  transform: rotate(-45deg);
+}
+
+.S::after {
+  transform: rotate(45deg);
+}
+  

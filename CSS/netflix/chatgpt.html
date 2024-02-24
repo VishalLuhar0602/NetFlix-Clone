@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vegetable Store</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product {
+      display: inline-block;
+      text-align: center;
+      width: 200px;
+      margin: 10px;
+    }
+
+    .product img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .product h3 {
+      margin: 0;
+    }
+
+    .product p {
+      color: #888;
+      margin: 0;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Responsive Media Queries */
+    @media only screen and (max-width: 768px) {
+      header {
+        padding: 10px;
+      }
+
+      nav ul li {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      section {
+        padding: 10px;
+      }
+
+      .product {
+        width: 100%;
+      }
+
+      .product img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vegetable Store</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="product">
+      <img src="vegetable1.jpg" alt="Vegetable 1">
+      <h3>Carrot</h3>
+      <p>$1.99 / kg</p>
+    </div>
+    <div class="product">
+      <img src="vegetable2.jpg" alt="Vegetable 2">
+      <h3>Tomato</h3>
+      <p>$2.49 / kg</p>
+    </div>
+    <div class="product">
+      <img src="vegetable3.jpg" alt="Vegetable 3">
+      <h3>Cucumber</h3>
+      <p>$1.49 / kg</p>
+    </div>
+    <!-- Add more product divs as needed -->
+  </section>
+  <footer>
+    &copy; 2023 Vegetable Store. All rights reserved.
+  </footer>
+</body>
+</html>
