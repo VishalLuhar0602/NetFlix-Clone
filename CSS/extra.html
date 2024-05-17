@@ -1,215 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible"
-		content="IE=edge">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0">
-	<title>
-		Build a Survey Form using HTML and CSS
-	</title>
-
-	<style>
-
-		/* Styling the Body element i.e. Color,
-		Font, Alignment */
-		body {
-			background-color: #f2a63d;
-			font-family: Verdana;
-			text-align: center;
-		}
-
-		/* Styling the Form (Color, Padding, Shadow) */
-		form {
-			background-color: #fff;
-			max-width: 500px;
-			margin: 50px auto;
-			padding: 30px 20px;
-			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-		}
-
-		/* Styling form-control Class */
-		.form-control {
-			text-align: left;
-			margin-bottom: 25px;
-		}
-
-		/* Styling form-control Label */
-		.form-control label {
-			display: block;
-			margin-bottom: 10px;
-		}
-
-		/* Styling form-control input,
-		select, textarea */
-		.form-control input,
-		.form-control select,
-		.form-control textarea {
-			border: 1px solid #777;
-			border-radius: 2px;
-			font-family: inherit;
-			padding: 10px;
-			display: block;
-			width: 95%;
-		}
-
-		/* Styling form-control Radio
-		button and Checkbox */
-		.form-control input[type="radio"],
-		.form-control input[type="checkbox"] {
-			display: inline-block;
-			width: auto;
-		}
-
-		/* Styling Button */
-		button {
-			background-color: #c10a0a;
-			border: 1px solid #777;
-			border-radius: 2px;
-			font-family: inherit;
-			font-size: 21px;
-			display: block;
-			width: 100%;
-			margin-top: 50px;
-			margin-bottom: 20px;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Example</title>
+  <link rel="stylesheet" href="extra.css">
 </head>
-
 <body>
-	<h1 style="color: #c10a0a;">Itachi form</h1>
-    <h2 style="color: #c10a0a;">The form of about all uchiha to help itachi to complete his mission</h2>
+<div class="container">
 
-	<!-- Create Form -->
-	<form id="form">
-
-		<!-- Details -->
-		<div class="form-control">
-			<label for="name" id="label-name">
-				Name
-			</label>
-
-			<!-- Input Type Text -->
-			<input type="text"
-				id="name"
-				placeholder="Enter your name" />
+	<div class="card">
+		<img src="pngwing.com.png" alt="Placeholder Image">
+		<div class="card-info">
+			<h2>Card Title</h2>
+			<p>This is a simple card example created with HTML and CSS.</p>
+			<a href="#">Read More</a>
 		</div>
+	</div>
+</div>
 
-		<div class="form-control">
-			<label for="email" id="label-email">
-				Email
-			</label>
-
-			<!-- Input Type Email-->
-			<input type="email"
-				id="email"
-				placeholder="Enter your email" />
-		</div>
-
-		<div class="form-control">
-			<label for="age" id="label-age">
-				Age
-			</label>
-
-			<!-- Input Type Text -->
-			<input type="text"
-				id="age"
-				placeholder="Enter your age" />
-		</div>
-
-		<div class="form-control">
-			<label for="role" id="label-role">
-				Which option best describes you?
-			</label>
-			
-			<!-- Dropdown options -->
-			<select name="role" id="role">
-				<option value="genin">genin</option>
-				<option value="jonin">jonin</option>
-				<option value="legendry-sanin">
-					legendry-sanin
-				</option>
-				<option value="other">Other</option>
-			</select>
-		</div>
-
-		<div class="form-control">
-			<label>
-				would you help itachi for his mission
-			</label>
-
-			<!-- Input Type Radio Button -->
-			<label for="recommed-1">
-				<input type="radio"
-					id="recommed-1"
-					name="recommed">Yes</input>
-			</label>
-			<label for="recommed-2">
-				<input type="radio"
-					id="recommed-2"
-					name="recommed">No</input>
-			</label>
-			<label for="recommed-3">
-				<input type="radio"
-					id="recommed-3"
-					name="recommed">Maybe</input>
-			</label>
-		</div>
-
-		<div class="form-control">
-			<label>What is your ability
-				<small>(Check all that apply)</small>
-			</label>
-			<!-- Input Type Checkbox -->
-			<label for="inp-1">
-				<input type="checkbox"
-					name="inp">Suriken-jutsu</input></label>
-			<label for="inp-2">
-				<input type="checkbox"
-					name="inp">Shadowclone-jutsu</input></label>
-			<label for="inp-3">
-				<input type="checkbox"
-					name="inp">jental-fist</input></label>
-			<label for="inp-4">
-				<input type="checkbox"
-					name="inp">sumoning-jutsu </input></label>
-			<label for="inp-5">
-				<input type="checkbox"
-					name="inp">kid-kidneping</input></label>
-			<label for="inp-6">
-				<input type="checkbox"
-					name="inp">wood-syle</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">fireboll-jutsu</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">sage mode</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">susano</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">hate-sakura</input></label>
-		</div>
-
-		<div class="form-control">
-			<label for="comment">
-				Any comments or suggestions
-			</label>
-
-			<!-- multi-line text input control -->
-			<textarea name="comment" id="comment"
-				placeholder="Enter your comment here">
-			</textarea>
-		</div>
-        <button type="reset" value="reset">Reset</button>
-
-		<!-- Multi-line Text Input Control -->
-		<button type="submit" value="submit">
-			Submit
-		</button>
-	</form>
 </body>
 </html>
